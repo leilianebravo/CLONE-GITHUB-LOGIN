@@ -10,37 +10,55 @@
 }
 
 main{
+    
     width: 100vw;
     height: 100vh;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 115px;
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 48px;
+    
+
 }
 
 #container{
-    width: 308px;
+    width: 405px;
+    height: 343px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-#header{
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     flex-direction: column;
     
 
 }
 
-img{
-    width: 48px;
-    margin-bottom: 20px;
-
+#header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 308px;
+    height: 36px;
+    margin-bottom: 16px;
+    
+    
 }
+
+
 
 #header h1{
     font-size: 24px;
@@ -49,6 +67,92 @@ img{
     width: 308px;
     height: 36px;
     text-align: center;
+    
 
+}
 
+#card{
+    width: 308px;
+    height: 236px;
+    padding: 16px;
+    font-size: 14px;
+    background: #f6f8fa;
+    border-radius: 6px;
+    border: 1px 
+    solid hsla(210,18%,87%,1);
+
+}
+
+label{
+    
+    width: 271px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 400px;
+    
+
+}
+
+label a{
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    align-items: end;
+    color: #0969da
+        
+}
+
+input{
+    
+    width: 274px;
+    height: 33px;
+    margin: 4px 0 16px 0;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    outline: none;
+    border: 1px 
+    solid #d0d7de
+   }
+
+input:focus{
+    border: 2px solid #0969da ;
+
+   }
+
+button{
+    width: 274px;
+    height: 32px;
+    text-align: center;
+    color: #fff;
+    background: #1f883d;
+    padding: 5px 16px;
+    border: 1px solid;
+    rgba(31,35,40,0,15)
+    font-size: 14px;
+    font-weight: 500; 
+    cursor: pointer;
+    border-radius: 6px
+    
+}
+#create{
+    margin: 16px;
+    border: 2px solid red;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #d0d7de;
+
+}
+#create a{
+    text-decoration: none;
+    color: #0969da;
+}
+
+#footer{
+    margin: 40px;
+    lis
 }
